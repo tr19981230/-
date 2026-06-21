@@ -1,0 +1,21 @@
+spring:
+  redis:
+    password: 906133479
+    host: localhost
+    port: 6379
+  main:
+    allow-circular-references: true
+
+mqtt:
+  hostUrl: tcp://localhost:1883
+  username: admin
+  password: tr906133479
+  client-id: MQTT-CLIENT-DEV
+  cleanSession: true
+  reconnect: true
+  timeout: 100
+  keepAlive: 100
+  defaultTopic: client/dev/report
+  serverTopic: server/dev/report
+  isOpen: true
+  qos: 1
