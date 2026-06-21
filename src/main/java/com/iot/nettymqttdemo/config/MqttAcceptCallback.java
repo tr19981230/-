@@ -82,7 +82,7 @@ public class MqttAcceptCallback implements MqttCallbackExtended {
      * 业务1：处理设备数据上报
      */
     private void handleDeviceReport(String messageDto) {
-        logger.info("【处理数据上报】设备ID={} | 数据={}", messageDto ,messageDto+"业务数据 -测试");
+        logger.info("【处理数据上报】设备ID={} | 数据={}", messageDto ,messageDto+"业务数据 -测试 ");
         // 你的业务逻辑：
         // 1. 存入数据库
         // 2. 写入 Redis 缓存
